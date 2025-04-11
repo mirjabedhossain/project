@@ -1,0 +1,34 @@
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+
+.box{
+    background-color: #ffffff;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+p{
+    padding-bottom: 10px;
+}
+.input-work{
+    margin-bottom: 20px;
+}

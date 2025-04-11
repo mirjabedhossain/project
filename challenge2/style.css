@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    height: 800px;
+    background-color: black;
+    color: #fff;
+    margin: auto;
+    margin-top: 50px;
+}
+.game-caption{
+    margin: 40px 0px;
+
+    
+}
+.section input{
+    padding: 10px 50px;
+    text-align: center;
+    color:black;
+    display: block;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+}
+.score-container{
+    margin-bottom:20px ;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+
+}
+.chose-options{
+    text-align: center;
+}
+
+.section .btn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:#f1be32;
+    color: #000000;
+    padding: 10px 10px ;
+    width: 100px;
+}

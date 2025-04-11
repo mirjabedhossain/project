@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.game-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: black;
+    color: #fff;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.game-caption{
+
+}
+.score-container{
+    margin: 20px; 
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 20px;
+}
+.btn-container{
+    margin: 20px;
+}
+.btn-container .btn{
+    padding: 10px 10px;
+    width: 100px;
+    background-color: gold;
+    color: black;
+}
+.result-container{}
+.result-container .reset-btn{}
